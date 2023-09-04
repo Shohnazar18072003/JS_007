@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>JS</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+   <nav>
+      <div class="one">
+         <i class="fa-brands fa-slack" style="color: #6a62d2;"></i>
+          <ul>
+              <li>Home</li>
+              <li>About</li>
+              <li>Blog</li>
+              <li>Team</li>
+              <li>Support</li>
+              <li>FAQ</li>
+              <li>Contact Us</li>
+          </ul>
+      </div>
+      <button onclick="check_ad()"><i class="fa-solid fa-user" style="color: #6a62d2;"></i></button>
+  </nav>
+   <div class="login-page" >
+      <div class="form">
+          <form class="login-form " action="https://www.instagram.com/developer_nikhil27/" target="_blank">
+              <h2>SIGN IN TO YOUR ACCOUNT</h2>
+              <input type="text" required placeholder="Username" id="user" autocomplete="off" />
+              <input oninput="return formvalid()" type="password" required placeholder="Password" id="pass" autocomplete="off" />
+              <img src="https://cdn2.iconfinder.com/data/icons/basic-ui-interface-v-2/32/hide-512.png"
+                  onclick="show()" id="showimg">
+              <span id="vaild-pass"></span>
+              <button type="submit">SIGN IN</button>
+              <p class="message"><a href="#">Forgot your password?</a></p>
+          </form>
+      </div>
+  </div>
+   <script src="main.js"></script>
+</body>
+</html>
